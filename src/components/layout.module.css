@@ -1,0 +1,17 @@
+.container {
+    margin: auto;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+
+.title {
+    color:darkslateblue;
+}
+
+.navBar {
+    margin: 0px;
+}
+
+.navLink {
+    margin-right: 20px;
+}
