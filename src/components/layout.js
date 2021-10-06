@@ -25,9 +25,9 @@ const Layout = ({siteTitle, subTitle, children}) => {
                 <Link to="/blog" className={navLink}>Blog</Link>
             </nav>
             <h3>{subTitle}</h3>
-            <p>
+            <main>
               {children}
-            </p>
+            </main>
         </div>
     );
 };
