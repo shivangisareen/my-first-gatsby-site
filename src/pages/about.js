@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 const AboutPage = () => {
     return (
         <div>
-            <Layout subTitle="About" subText="This is where you can find more about me!"/>
+            <Layout subTitle="About">This is where you can find more about me! </Layout>
         </div>
     );
 };
