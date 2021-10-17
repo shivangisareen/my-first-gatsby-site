@@ -18,7 +18,7 @@ const BlogPost = ({data}) => {
                     alt={data.mdx.frontmatter.hero_image_alt}
                 />
                 <p>
-                    Photo credit: {" "} /*to render space between the colon : and the credit_text*/
+                    Photo credit: {" "} {/*to render space between the colon : and the credit_text*/}
                     <a href={data.mdx.frontmatter.hero_image_credit_link}>
                         {data.mdx.frontmatter.hero_image_credit_text}
                     </a>
